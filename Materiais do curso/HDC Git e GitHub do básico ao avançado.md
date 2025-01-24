@@ -60,4 +60,8 @@ ___________________________________________________
         git status
     Este comando é utilizado muito frequentemente, usado para mapear todas as alterações do projeto, como arquivos não monitorados e arquivos modificados. Pode- se dizer também que é a diferença do que já foi enviado ao servidor ou salvo no projeto.
 
-* 
+* Adicionando arquivos ao projeto.
+    Para adicionar arquivos a um projeto utilizados o comando:
+        git add
+    Podemos adicionar um arquivo específico como também diversos de uma só vez. Somando adicionando arquivos eles serão monitorados pelo git, ou seja, se não adicionar ele não estará no controle de versão.
+    É interessante utilizar este comando de tempos em tempos para não perder algop por descuido.
