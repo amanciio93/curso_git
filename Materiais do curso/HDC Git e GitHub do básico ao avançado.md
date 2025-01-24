@@ -34,7 +34,7 @@ ___________________________________________________
 
 # 2 - GIT FUNDAMENTAL.
 
-    Primeiramente, um repositório é um local onde um código esta armazenado, na maioria das vezes cada projeto tem seu repositório. Quando criamos um repositório estamos iniciando um novo projeto e este repositório pode ser enviado para um servidor especializado em gerenciar repositórios, como o GitHub.
+* Primeiramente, um repositório é um local onde um código esta armazenado, na maioria das vezes cada projeto tem seu repositório. Quando criamos um repositório estamos iniciando um novo projeto e este repositório pode ser enviado para um servidor especializado em gerenciar repositórios, como o GitHub.
     Cada pessoa que tiver acesso a certo repositório, poderá baixar e criar versões diferentes de um mesmo projeto em sua máquina.
     
 * Criando o primeiro repo:
@@ -65,3 +65,14 @@ ___________________________________________________
         git add
     Podemos adicionar um arquivo específico como também diversos de uma só vez. Somando adicionando arquivos eles serão monitorados pelo git, ou seja, se não adicionar ele não estará no controle de versão.
     É interessante utilizar este comando de tempos em tempos para não perder algop por descuido.
+
+* Salvando alterações no projeto.
+    As alterações salvas do projeto são realizadas pelo comando:
+        git commit
+    Podemos commitar arquivos específicos ou vários de uma vez com a flag -a. É uma boa prática nomear com uma mensagem cada novo commit. Usamos a flag -m para adicionar a mensagem.
+        git commit -m "Msg aqui"
+
+* Enviando código ao repositório remoto.
+    Quando finalizamos uma funcionalidade nova, enviamos ao repo remoto, o código fonte, esta ação é feita através do comando:
+        git push
+    Após esta ação o código do servidor será atualizado baseando- se no código local enviado;
