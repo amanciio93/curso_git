@@ -76,3 +76,8 @@ ___________________________________________________
     Quando finalizamos uma funcionalidade nova, enviamos ao repo remoto, o código fonte, esta ação é feita através do comando:
         git push
     Após esta ação o código do servidor será atualizado baseando- se no código local enviado;
+
+* Recebendo as mudanças
+    É comum também ter que sincronizar o local com as mudanças do remoto, esta ação é feita pelo comando:
+        git pull
+    Após o comando serão buscadas atualizações, se encontradas elas serão unidas no código atual em nossa máquina.
