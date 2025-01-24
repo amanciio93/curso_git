@@ -81,3 +81,15 @@ ___________________________________________________
     É comum também ter que sincronizar o local com as mudanças do remoto, esta ação é feita pelo comando:
         git pull
     Após o comando serão buscadas atualizações, se encontradas elas serão unidas no código atual em nossa máquina.
+
+* Clonando repositórios.
+    O ato de baixar um repo de um servidor remoto é chamado de clonar o repositório.
+    Para realizar esta ação, usamos o comando:
+        git clone
+    Passando a referência do repositório remoto, este comando é utilizado quando entramos em um novo projeto, por exemplo.
+
+* Removendo arquivos do repositório.
+    Os arquivos podem ser deletados da monitoração do git usando o comando:
+        git rm
+    Após deletar um arquivo do git ele não terá mais suas atualizações consideradas pelo git, apenas quando for adicionado pelo git add.
+
