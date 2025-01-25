@@ -97,3 +97,12 @@ ___________________________________________________
     Podemos acessar um log de modificações feitas no projeto, para isso usamos o comando:
         git log
     Você receberá uma informação dos commits realizados no projeto até então.
+
+* Renomeando arquivos.
+    Podemos renomear arquivos em nosso repositório usando o seguinte comando:
+        gir mv <file>
+    O mesmo também pode ser movido para putra pasta e isso fará com que este novo arquivo seja monitorado pelo git. 
+O arquivo anterior é excluído.
+
+* Desfazendo alterações.
+    
