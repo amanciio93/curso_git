@@ -105,4 +105,6 @@ ___________________________________________________
 O arquivo anterior é excluído.
 
 * Desfazendo alterações.
-    
+    O arquivo modificado pode ser retornado ao estado original com o comando:
+        git checkout
+    Após a utilização do mesmo o arquivo sai do staging, caso seja feita uma próxima alteração, ele entra em staging novamente.
