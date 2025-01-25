@@ -93,3 +93,7 @@ ___________________________________________________
         git rm
     Após deletar um arquivo do git ele não terá mais suas atualizações consideradas pelo git, apenas quando for adicionado pelo git add.
 
+* Verificando alterações por meio de logs.
+    Podemos acessar um log de modificações feitas no projeto, para isso usamos o comando:
+        git log
+    Você receberá uma informação dos commits realizados no projeto até então.
