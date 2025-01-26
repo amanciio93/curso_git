@@ -111,3 +111,8 @@ O arquivo anterior é excluído.
 
 * Ignorando arquivos e diretórios no projeto.
     Uma técnica muito utilizada é ignorar arquivos do projeto, devemos inserir um arquivo chaqmado ".gitignore" na raiz do projeto, nele podemos inserir todos os arquivos que não devem entrar no versionamento. Isso é util para arquivos gerados automaticamente ou arquivos que contêm informações sensíveis.
+
+* Resetando uma branch.
+    Podemos resetar as mudanças feitas em uma branch com o comando:
+        git reset
+    Todas as alterações commitadas e também as pendentes serão excluídas.
