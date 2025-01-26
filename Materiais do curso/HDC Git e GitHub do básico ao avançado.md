@@ -108,3 +108,6 @@ O arquivo anterior é excluído.
     O arquivo modificado pode ser retornado ao estado original com o comando:
         git checkout
     Após a utilização do mesmo o arquivo sai do staging, caso seja feita uma próxima alteração, ele entra em staging novamente.
+
+* Ignorando arquivos e diretórios no projeto.
+    Uma técnica muito utilizada é ignorar arquivos do projeto, devemos inserir um arquivo chaqmado ".gitignore" na raiz do projeto, nele podemos inserir todos os arquivos que não devem entrar no versionamento. Isso é util para arquivos gerados automaticamente ou arquivos que contêm informações sensíveis.
